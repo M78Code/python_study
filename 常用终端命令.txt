@@ -1,0 +1,377 @@
+homebrew安装mysql
+brew install mysql
+brew install mysql@版本号(安装具体版本号)
+brew list（检查用brew安装过的应用）
+brew remove xxx（用brew删除安装过的应用）
+brew -help（查看brew的帮助）
+brew install git（brew安装软件，比如安装git）
+brew uninstall git（brew卸载软件，比如卸载git）
+brew search git（brew搜索软件，比如git）
+brew update（更新软件，把所有的formula目录更新，并且会对本机已经安装并有更新的软件用*标明）
+brew upgrade git（更新某具体软件）
+brew info git（显示软件内容信息）
+brew cleanup git（删除程序，单个软件删除和所有程序旧版删除）
+brew cleanup
+brew outdated（查看那些已安装的程序需要更新）
+
+mysql --version 查看是否安装成功
+启动和关闭mysql服务
+sudo mysql.server start
+sudo mysql.server stop
+配置root用户 https://juejin.cn/post/7020737412955373598
+
+git 配制初始化
+git config --global user.name "M78Code"
+git config --global user.email m78code@example.com
+git config --list
+
+对.gitignore文件修改后使生效步骤
+进入.gitignore同级文件夹路径下
+git rm -r --cached .	#清除缓存
+git add .		#重新trace file
+git commit -m 'update .gitignore'	#提交和注释（可选）
+  
+
+
+git bash/shell下配置代理
+export http_proxy=http://127.0.0.1:1080（例）
+export http_proxys=http://127.0.0.1:1080（例）
+取消代理
+export http_proxy=（什么都不写）
+export http_proxys=（什么都不写）
+windows终端下配置代理
+set http_proxy=http://127.0.0.1:1080（例）
+set http_proxys=http://127.0.0.1:1080（例）
+
+warning: LF will be replaced by CRLF in 
+解决：git config --global core.autocrlf false
+
+区域：工作区，暂存区，版本库
+对象：git对象，树对象，提交对象
+
+将项目提交到远程仓库步骤：
+  git init .(操作前加入忽略文件)
+  git remote add origin url
+  git add .
+  git commit -m 'first commit'
+  git push origin master -f
+
+git重定向仓库地址
+  方法一：git remote set-url origin  新仓库地址（这个命令前提有远程仓库地址）
+  
+  方法二：1、git remote rm origin;
+          2、git remote add origin  新仓库地址
+
+git remote add xxx_xxx 新仓库地址（可以将项目添加到新的仓库，推送时，要根据所取的xxx_xxx仓库名来推送）
+eg: git push xxx_xxx 当前分支名
+
+当项目中饮食外部仓库时，可以使用子模块来管理这些依赖
+git submodule add <repository> <path>
+
+清除远程分支的本地缓存
+git fetch -p origin
+
+git log --online --graph查看git树
+
+如果想在合并 dev 分支到 master 的同时，将 dev 分支中提交简化为一条记录，使得在 master 分支提交历史简洁，可以使用 --squash 参数
+git merge --squash branchName
+git rebase -i HEAD~<number_of_commits>使用rebase命令的交互模式可以合并多个提交
+
+用 rebase 和 merge 的基本原则：
+下游分支更新上游分支内容的时候使用 rebase
+上游分支合并下游分支内容的时候使用 merge
+更新当前分支的内容时一定要使用 --rebase 参数
+
+git pull或者git push中都有可能会遇到，这是因为两个分支没有取得关系
+fatal: refusing to merge unrelated histories
+在你操作命令后面加--allow-unrelated-histories
+eg：git merge master --allow-unrelated-histories
+
+更新当前分支代码的时候一定要使用 git pull origin xxx --rebase
+git rebase会把currentBranch的每一个提交取消掉，然后把currentBranch更新到最新的origin分支
+git rebase过程冲突是一个一个解决，如有十个，先解决第一个，然后
+git add -u，git rebase --continue
+
+git rebase与git merge冲突的区别是merge的所有冲突都会显示
+
+删除git服务器上的分支(操作完成后远程仓库再无此分支,git branch -a也看不到) 
+  git push origin -d branchName
+
+删除本地的仓库分支
+git branch -D branchName
+恢复被删除的本地分支
+git branch branchName hash_val(哈希值)
+
+查看本地和远程分支
+git branch -a 
+查看远程分支
+git branch -r
+
+查看文件的修改内容
+git diff xxx.java
+
+查看提交的详情内容
+git show commitid
+
+git add -p(可以使用交互式添加功能来部分暂存文件)
+
+
+
+重命名本地分支名
+  git branch -m old_name new_name
+重命名远程分支名
+ 1、删除远程分支；
+ 2、将重命名的本地分支推到远程；
+
+基于远程分支切出一个新分支
+  git checkout -b branchName origin/branchName
+
+克隆远程指定分支
+  git clone -b branchName origin/branchName
+
+撤销合并
+  1、找到最后一次提交到master分支的版本号，即[merge前的版本号]
+  2、git reset --hard [merge前的版本号]
+
+git stash(工作未完成，不想提交，却要切到另一个分支去)
+git stash pop(取出git stash暂存在栈中的文件)
+
+git stash list(查看stash中的内容)
+git stash clear(清空stash中的内容)
+git stash drop stash@{s}(删除stash中的某个队列)
+
+
+
+
+/****************Android的linux命令********************/
+查询手机cpu命令行
+adb shell getprop ro.product.cpu.abi
+
+查看task栈情况
+获取所用应用
+adb shell dumpsys activity
+
+获取自己的应用
+adb shell dumpsys activity | grep com.xxx.xxx.xx
+eg：adb shell "dumpsys activity | grep cn.audit"
+
+获取处于栈顶的activity
+adb shell dumpsys activity | grep mFocusedActivity
+
+显示当前运行的全部模拟器：
+adb devices
+
+安装应用程序：
+adb install -r 应用程序.apk
+
+获取模拟器中的文件：
+adb pull <remote> <local>
+向模拟器中写文件：
+adb push <local> <remote>
+
+进入模拟器的shell模式：
+adb shell
+
+启动SDK，文档，实例下载管理器：
+android
+
+缷载apk包：
+  adb shell
+  cd data/app
+  rm apk包
+  exit
+  adb uninstall apk包的主包名
+  adb install -r apk包
+
+查看adb命令帮助信息：
+adb help
+
+在命令行中查看LOG信息：
+adb logcat -s 标签名
+
+启动Activity：
+  adb shell am start -n 包名/包名＋类名（-n 类名,-a action,-d date,-m MIME-TYPE,-c category,-e 扩展数据,等）。
+
+获取设备的ID和序列号：
+ adb get-product
+ adb get-serialno
+ 
+访问数据库SQLite3
+ adb shell
+ sqlite3
+   
+debug模式
+ adb logcat -s TAG:*
+  
+#cd system/sd/data //进入系统内指定文件夹
+#ls //列表显示当前文件夹内容
+#rm -r xxx //删除名字为xxx的文件夹及其里面的所有文件
+#rm xxx //删除文件xxx
+#rmdir xxx //删除xxx的文件夹
+
+命令行终端设置代理
+set http_proxy=http://192.168.88.17:8333
+set https_proxy=http://192.168.88.17:8333
+
+
+gradlew assembleDebug
+gradlew processDebugManifest --stacktrace
+
+//在gradlew目录下后，在终端可执行
+./gradlew assembleDebug --stacktrace
+
+
+
+/****************Docker的一些命令********************/
+Shell是一个用C语言编写的程序，它是用户使用Linux的桥梁，Shell既是一种命令语言，又是一种程序设计语言。
+Shell是一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。
+bash环境：Linux一般默认的shell为bash
+
+debian下安装工具包
+如debian下运行netstat失败提示：bash：netstat：command not found
+apt-get update
+安装：apt-get install net-tools
+
+docker远程仓库拉取镜像到本地
+eg：docker pull  hub.c.163.com/library/nginx:latest
+
+查看镜像状态     
+docker images  
+
+查看运行的容器
+docker ps
+
+停止容器
+docker stop containerId
+eg：docker stop 86a14123433a 
+ctrl+c中止前台运行的容器
+
+更多关于运行的命令
+docker run --help
+
+调试容器内部的设置，日志
+docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+eg：docker exec -it 02963d2002b bash
+-i保证我们的输入有效,即使在没有detach的情况下也能运行.
+-t表示将分配给我们一个伪终端.我们将在伪终端输入我们的内容.
+可输入如下命令了解更多：
+docker exec --help
+
+查看linux发行版本和版本号
+cat /etc/os-release(进入linux系统shell中才可以使用) 
+
+1.MacOS下如何通过命令行在特定位置创建任意文件
+	a.首先ca到指定目录，通过touch指令来新建想要的任意文件
+	eg: touch aaa.txt
+	
+	b.删除文件
+		rm 文件名
+
+2.删除文件夹
+	a. 删除空目录：rmdir 目录名  （一旦目录非空会提示：Directory not empty）
+	使用rm既可以删除文件又可以删除文件夹
+	b. (无论文件夹是否为空)，使用 -rf命令即可	即：rm -rf 目录名
+	-r 就是向下递归，不管有多少级目录，一并删除
+	-f 就是直接强行删除，不作任何提示的意思
+
+3.强制删除文件：
+	rm -f 文件名
+	⚠️：使用rm -rf 的时候一定要格外小心，linux没有回收站
+
+4.显示隐藏文件：
+	command+shift+.
+
+整屏截图Command+Shift+3	区域截图Command+Shift+4	窗口截图Command+Shift+4，再按空格键
+进入资源库：Finder——>前往——>按住options键位，资源库显示出来
+
+先终端上，brew->回车->查看是否已安装brew 
+brew安装指令： /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install smartmontools
+smartctl -a disk0（检查硬盘读写次数）
+
+Mac下.bash_profile和.zshrc两者之间的区别
+.bash_profile中修改的环境变量只对当前窗口有效,修改完.bash_profile之后在终端输入source ~/.bash_profile使之生效.
+.zshrc在电脑每次自启动时都会生效(永久有效),修改完之后在终端输入source ~/.zshrc使之生效.
+
+建议: 1,直接在.zshrc中添加修改环境变量;
+     2,在.zshrc添加source .bash_profile,这样之后不管你以后不小心添加到.bash_profile中的环境变量也会始终有效.
+
+flutter channel查看当前flutter处于的开发版本
+flutter channerl xxx切换flutter开发版本到xxx版本
+flutter pub get 获取flutter库
+flutter pub upgrade更新flutter库
+flutter pub outdated检查flutter引用的第三方库的最新版本
+flutter devices 查看所有设备,不限于硬件设备
+flutter run -d all将项目运行在所有设备上
+control+回车，出现构造函数，getter，setter等
+flutter upgrade v x.xx升版本
+flutter downgrade v x.xx降版本 
+flutter analyze lib/（代码分析命令）
+Flutter回退到指定版本
+Which flutter——> 进入flutter目录——> git tag——> git checkout version——> flutter --version(可查看)
+
+flutter版本管理工具
+brew tap leoafarias/fvm
+brew install fvm
+fvm list 后提示（No SDKs have been installed yet. Flutter. SDKs installed outside of fvm will not be displayed.）
+fvm install x.xx.x（Flutter版本号）
+fvm global x.xx.x（指定flutter全局默认版本）
+fvm use x.xx.x（进入某项目中，给当前项目指定flutter sdk版本，比如3.13.2）
+
+option+回车，一键添加
+command+y，删掉一行或多行
+双击shift，打开搜索（搜索的是文件名）
+command+shift+f，全局搜索
+shift+f6，重命名
+command+shift+u，切换大小写
+command+d，复制多行
+command+y，删除多行
+option+shift+上/下方向键，移动位置
+英文模式下option+8，输入英文中间点
+
+
+uname -a查看 macOS x64，macOS ARM64
+Mac录屏
+shift+command+5
+
+
+Flutter run key commands.
+r     Hot reload.
+R    Hot restart.
+h    Repeat this help message.
+d    Detach  (terminate  "flutter run"  but leave application runing).
+c    Clear the screen.
+q    Quit  (terminate the appliation on the device).
+
+Android打印报错信息
+gradlew compileDebug --stacktrace
+就可以输出较详细的信息，然后根据命令行给出的提示，
+还可以在后面加上-info或者-debug的选项得到更详细的信息，于是这个命令可以这样写：
+gradlew compileDebugSources --stacktrace -info
+或者
+gradlew compileDebugSources --stacktrace -debug
+
+Sudo chmod -R 777 flutter项目名	(表示修改当前这个项目里面的所有读写权限)
+
+
+Cannot create a iOS App Development provisioning profile for "xxx
+
+解决方法
+
+将Build Settings|Code Signing的Provisioning Profile中对应版本（Debug）的Entitlements置空
+
+
+Flutter开发中遇到的问题集
+1，同时设置text字体大小和hintText字体大小时，hintText向下偏移。
+解决方法: 设置text的行高为1.2，效果好很多
+
+2，在Column中使用Expanded，而这个Column具有父级SingleChildScrollView就报Flutter报错RenderBox was not laid out: RenderRepaintBoundary这个错误
+
+Error running pod install
+Error launching application on iPhone 15 Pro.
+https://minpro.net/error-running-pod-install
+删除iOS目录中的Podfile.lock,然后执行pod install
+
+
+
+
