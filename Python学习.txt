@@ -72,6 +72,25 @@ Python不断地从其他优秀的数学软件引入高效的数据开发包
 
 
 
+$ conda --version /*查看版本*/
+$ conda create --name my_env python=3.8 /* 创建虚拟环境，my_env是自定义的名字*/
+$ conda activate my_env /*激活虚拟环境*/
+$ conda deactivate /* 停用虚拟环境*/
+$ conda info -envs /*查看所有虚拟环境*/
+$ conda env remove -n my_env /*删除虚拟环境*/
+$ conda list /*查看当前虚拟环境下的所有包*/
+$ conda install numpy /*安装包*/
+$ anaconda-navigator /*图形化界面*/(只有在anaconda的base环境才能启动)
+$ pip list /*查看当前激活的虚拟环境中有哪些安装包*/
+
+/*Linux(Ubuntu)系统查看显卡型号*/
+方法一：
+$ lspci | grep -i vga
+https://blog.csdn.net/maizousidemao/article/details/88821949
+https://admin.pci-ids.ucw.cz/mods/PC/10de?action=help?help=pci（十六进制数查看）
+方法二：
+$ nvidia-smi（在知道是NVIDIA显卡的情况下输入的命令）
+
 
 
 
