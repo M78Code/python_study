@@ -1,0 +1,11 @@
+unbutu下操作的命令记录
+
+Ctrl+Alt+T 重新打开一个新的Terminal
+
+1. zip命令
+$: zip -r myfile.zip
+
+2. unzip
+unzip -o -d folder_name xxx.zip
+-o: 不提示的情况下覆盖文件；
+-d: /home/sunny 指明将文件解压到folder_name目录下；
