@@ -19,7 +19,7 @@ class Person:
 
 
 p = Person('Kotlin')
-# print(p.name)
+print(p.name)
 p.name = 'Java'
 # print(p.name())
-print(p.name)
+# print(p.name)
