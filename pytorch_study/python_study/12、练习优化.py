@@ -41,7 +41,7 @@ i = 2
 while i <= 100000:
     flag = True
     j = 2
-    while j<= i ** 0.5:
+    while j <= i ** 0.5:
         if i % j == 0:
             flag = False
             break

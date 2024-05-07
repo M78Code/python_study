@@ -14,7 +14,7 @@ stus[0] = 'Go'
 print(stus)
 
 # 通过del来删除元素
-del stus[5] # 删除索引为5的元素
+del stus[5]  # 删除索引为5的元素
 print(stus)
 
 # 通过切片来修改列表
@@ -28,7 +28,7 @@ print(stus)
 # 通过切片来修改列表
 # 在给切片进行赋值时，只能使用序列
 # stus[0:2] = ['牛魔']
-stus[0:0] = ['CSS'] # 向索引为0的位置插入元素
+stus[0:0] = ['CSS']  # 向索引为0的位置插入元素
 
 # 以上操作，只适用于可变序列
 s = "Koltin"
@@ -68,7 +68,4 @@ print(s)
 #   sort()
 #   用来对列表中的元素进行排序，默认是升序排列
 #   如果需要降序排列，则需要传递一个reverse=True,
-stus.sort(reverse=True) #   是否反转
-
-
-
+stus.sort(reverse=True)  # 是否反转

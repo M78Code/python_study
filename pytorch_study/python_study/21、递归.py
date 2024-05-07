@@ -2,7 +2,6 @@
 
 # 阶乘
 def factorial(n):
-
     result = n
     for i in range(1, n):
         result *= i
@@ -27,11 +26,12 @@ def recursion(n):
         # 1的阶乘就是1，直接返回1
         return 1
     # 递归条件
-    return n *recursion(n-1)
+    return n * recursion(n - 1)
 
 
 a = recursion(10)
 print(a)
+
 
 # 检查一个字符串是否是回文
 #   检查 abcdefgedcba是否是回文
@@ -56,7 +56,9 @@ def hui_wen(s):
         # 第一个字符和最后一个字符不相待，不是回文字符串
         return False
     # 递归条件
-    return hui_wen(s[1:-1])#切片，从1开始，表示包含1，所以基线条件没有了
+    return hui_wen(s[1:-1])  # 切片，从1开始，表示包含1，所以基线条件没有了
+
+
 #                            -1结束，不包含结束位置
 
 
@@ -72,5 +74,5 @@ def hui_wen2(s):
         # 字符串的长度小于2，则字符串一定是回文
         return True
     # 递归条件
-    return s[0] == s[-1] and hui_wen(s[1:-1])#切片，从1开始，表示包含1，所以基线条件没有了
+    return s[0] == s[-1] and hui_wen(s[1:-1])  # 切片，从1开始，表示包含1，所以基线条件没有了
 #                            -1结束，不包含结束位置

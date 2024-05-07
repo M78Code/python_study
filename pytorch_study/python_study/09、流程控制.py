@@ -20,7 +20,7 @@
 
 a = 5
 b = 30
-if (a > b):
+if a > b:
     print(123)
     print(456)
     print(789)

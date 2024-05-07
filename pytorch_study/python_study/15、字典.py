@@ -7,27 +7,26 @@
 from email.policy import default
 from os import name
 
-
-d = {}  #创建了一个空字典
+d = {}  # 创建了一个空字典
 # 创建一个保护有数据的字典
 # 语法:
 #   {key: value, key:value}
 #   字典的值可以是任意对象
 #   字典的键可以是任意不可变对象（int，str，bool，tuple ...）
-d = {'name': '孙悟空','age': 18, 'gender': '男','name': '孙悟空2'}
-print(d,type(d))
+d = {'name': '孙悟空', 'age': 18, 'gender': '男', 'name': '孙悟空2'}
+print(d, type(d))
 
 #  使用dict()函数来创建字典
 # 每一个参数都是一个键值对，参数名就是键，参数值就是值（这种方式创建的字典，key都是字符串）
-e = dict(name = 'Kotlin', age = '7', gender = 'Google')
+e = dict(name='Kotlin', age='7', gender='Google')
 print(e, type(e))
 
 #  也可以将一个包含有双值子序列的序列转换为字典
 #  双值序列，序列只有两个值，[1,2] ('a',3) 'ab'
 #  子序列，如果序列中的元素也是序列，那么称这个元素为子序列
-[(1,2),(3,5)]
-d = dict([('name','Google'),('age',40)])
-print(d,type(d))
+[(1, 2), (3, 5)]
+d = dict([('name', 'Google'), ('age', 40)])
+print(d, type(d))
 
 # len() 获取字典中键值对的个数
 # in    检查字典中是否包含指定的键
@@ -45,14 +44,14 @@ print(d.get('name'))
 #   如果key不存在，则向字典中添加这个key，
 e['address'] = 'Sun'
 print(e)
-result = e.setdefault('address',  '默认值')
+result = e.setdefault('address', '默认值')
 print(result)
 
 # update([other])
 # 将其他的字典中的key-value添加到当前字典中
 # 如果有重复的key，则后边的会替换到当前的
-d ={'a':1,'b':2,'c':3}
-d2 = {'d':4, 'e':5,'f':6,'a':7}
+d = {'a': 1, 'b': 2, 'c': 3}
+d2 = {'d': 4, 'e': 5, 'f': 6, 'a': 7}
 d.update(d2)
 print(d)
 
@@ -73,9 +72,9 @@ del d['a']
 # 如果删除不存在的key，会抛出异常
 #   如果指定了默认值，再删除不存在的key时，不会报错，而是直接返回默认值
 result = d.pop('d')
-result = d.pop('z','这是z的默认值')
+result = d.pop('z', '这是z的默认值')
 
-print('result = ',result)
+print('result = ', result)
 print(d)
 
 # clear()用来清空字典
@@ -88,7 +87,7 @@ print(d)
 
 #  遍历字典
 # keys()    该方法会返回字典的所有的key
-j = {'name': 'Java', 'age':25, 'gender': 'Oracle'}
+j = {'name': 'Java', 'age': 25, 'gender': 'Oracle'}
 print(j.keys())
 # 通过遍历keys()来获取所有的键
 for e in j.keys():
@@ -107,5 +106,5 @@ for v in j.values():
 # 该方法会返回字典中所有的项
 # 它会返回一个序列，序列中包含有双值子序列
 # 双值分别是，字典中的key和value
-for k,v in j.items():
+for k, v in j.items():
     print(k, '=', v)
