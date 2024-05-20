@@ -31,6 +31,8 @@ print(my_list, len(my_list), type(my_list))
 stus = ["Java", "Kotlin", "Flutter", "Dart", "Kotlin", "JavaScript", "Kotlin", "Python"]
 print(stus[-1])  # Python
 
+stus2 = ["PHP", "Go"]
+
 # 列表索引可以是负数
 # 如果索引是负数，则从后向前获取元素，-1表示倒数第一个，-2表示倒数第二个
 # 如果索引是负数，则从后向前获取元素，-1表示倒数第一个，-2表示倒数第二个，以此类推
@@ -49,6 +51,9 @@ print(stus[:3])
 
 # 如果起始位置和结束位置全部省略，则相当于创建了一个列表的副本
 print(stus[:])
+
+stus += stus2
+print(stus)
 
 # 语法: 列表[起始:结束:步长]
 print(stus[0:5:3])
