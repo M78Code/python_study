@@ -16,7 +16,7 @@ def f(x):
 
 
 def fourier_func(x):
-    return -2(np.sin(x))
+    return -2 * (np.sin(x))
 
 # x = np.arange(0, 360)
 # # 如果打印x, NumPy 会给你很好看的打印格式
