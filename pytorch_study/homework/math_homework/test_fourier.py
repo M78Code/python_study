@@ -32,13 +32,14 @@ def _draw_sin():
         y.append(y_m_n)
 
     # グラフのサイズ　面積=10cm * 8cm
-    pt.figure(figsize=(10, 8))
+    pt.figure(figsize=(12, 10))
 
     # グラフを描く
     pt.plot(x, y, label="f(x)関数の図")
 
     # 軸のラベルとタイトルの設定
-    mpl.rcParams["font.family"] = ["SimHei"]
+    # mpl.rcParams["font.family"] = ["SimHei"]  # linux下设置的字体
+    mpl.rcParams["font.family"] = ["Arial Unicode MS"]  # linux下设置的字体
     mpl.rcParams["axes.unicode_minus"] = False
     pt.xlabel("x")
     pt.ylabel("f(x)")
@@ -54,8 +55,46 @@ def _draw_sin():
     pt.show()
 
 
-_draw_sin()
+def _draw_sin2():
+    x = np.linspace(-np.pi, np.pi, 60)
+    y = x * np.sin(x)
+    # グラフのサイズ　面積=10cm * 8cm
+    pt.figure(figsize=(12, 10))
 
+    # グラフを描く
+    pt.plot(x, y, label="f(x)2関数の図")
+
+    # 軸のラベルとタイトルの設定
+    # mpl.rcParams["font.family"] = ["SimHei"]  # linux下设置的字体
+    mpl.rcParams["font.family"] = ["Arial Unicode MS"]  # linux下设置的字体
+    mpl.rcParams["axes.unicode_minus"] = False
+    pt.xlabel("x")
+    pt.ylabel("f(x)")
+
+    x_major_locator = MultipleLocator(1)
+    ax = pt.gca()
+    ax.xaxis.set_major_locator(x_major_locator)
+
+    # 図例を示す
+    pt.legend()
+
+    # グラフを示す
+    pt.show()
+
+
+def _calcu_y_value_range():
+    # x_array = []
+    for n in range(1, 61):
+        x_value_range = -3.14 + n / 10
+        print(x_value_range)
+        # x_array.append(x_value_range)
+    # print(f"{len(x_array)}")
+    # print(type(x_value_range))
+
+
+# _calcu_y_value_range()
+# _draw_sin2()
+# _draw_sin()
 # xの範囲 -PI <=x<= PI x(-PIからPIまで)
 # x = np.linspace(-np.pi, np.pi)
 
@@ -81,3 +120,6 @@ _draw_sin()
 
 # グラフを示す
 # pt.show()
+
+fa = -np.pi * np.sin(-np.pi)
+print(f"fa = {fa}")

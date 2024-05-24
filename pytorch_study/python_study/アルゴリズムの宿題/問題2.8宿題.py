@@ -37,8 +37,8 @@ def __merge(left: list, right: list):
     return result
 
 
-test_result = merge_sort(array)
-print("最後のソートした結果:", test_result)
+# test_result = merge_sort(array)
+# print("最後のソートした結果:", test_result)
 
 
 def has_two_sum(nums: list, x: int) -> bool:
@@ -60,4 +60,15 @@ def has_two_sum(nums: list, x: int) -> bool:
     return False
 
 
-print(has_two_sum(array, 5))
+# print(has_two_sum(array, 5))
+
+
+def calcu_det():
+    a = [[1, 3], [7, 5]]
+    b = [[6, 8], [4, 2]]
+
+
+list2d = [[1, 3], [7, 5, 6]]
+for i in range(len(list2d)):
+    for j in range(len(list2d[i])):
+        print(list2d[i][j])

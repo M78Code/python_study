@@ -8,7 +8,8 @@ import numpy as np
 import matplotlib.pyplot as pt
 
 # 周期関数 f(x) = x
-x_ = np.linspace(-np.pi, np.pi)
+x_ = np.linspace(-np.pi, np.pi, 60)
+print(x_)
 
 
 def f(x):
@@ -56,3 +57,9 @@ for i in range(1, 1000):
 # for ii in range(5):
 #     for jj in range(ii):
 #         print(f"ii = {ii}, jj={jj}")
+
+# from matplotlib.font_manager import FontManager
+#
+# fm = FontManager()
+# mat_fonts = set(f.name for f in fm.ttflist)
+# print(mat_fonts)
