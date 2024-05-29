@@ -24,6 +24,7 @@ def _draw_sin():
     y = []
 
     # ループ計算するxとyの値
+    # np.linspace(-np.pi, np.pi, 60)
     for n in range(0, 61):
         x_m_n = x_m(n)
         x.append(x_m_n)
@@ -31,16 +32,16 @@ def _draw_sin():
         y_m_n = f(x_m_n)
         y.append(y_m_n)
 
-    # グラフのサイズ　面積=10cm * 8cm
+    # グラフのサイズ　面積=12cm * 10cm
     pt.figure(figsize=(12, 10))
 
     # グラフを描く
     pt.plot(x, y, label="f(x)関数の図")
 
     # 軸のラベルとタイトルの設定
-    # mpl.rcParams["font.family"] = ["SimHei"]  # linux下设置的字体
+    # mpl.rcParams["font.family"] = ["SimHei"]  # linux下設定的字体
     mpl.rcParams["font.family"] = ["Arial Unicode MS"]  # linux下设置的字体
-    mpl.rcParams["axes.unicode_minus"] = False
+    mpl.rcParams["axes.unicode_minus"] = False  # "UTF-8"
     pt.xlabel("x")
     pt.ylabel("f(x)")
 
@@ -55,9 +56,15 @@ def _draw_sin():
     pt.show()
 
 
+# _draw_sin()
+
 def _draw_sin2():
     x = np.linspace(-np.pi, np.pi, 60)
     y = x * np.sin(x)
+
+    size_ = np.sum(x * y)
+    print(size_)
+
     # グラフのサイズ　面積=10cm * 8cm
     pt.figure(figsize=(12, 10))
 
@@ -80,6 +87,21 @@ def _draw_sin2():
 
     # グラフを示す
     pt.show()
+
+
+# _draw_sin2()
+
+def sectional_measurement():
+    w = 1  # 長方形の幅
+    x = np.arange(0, np.pi, w)  # x
+    y = np.sin(x)  # y
+
+    val = np.sum(y * w)  # 長方形の面積の合計
+    print(val)
+
+
+if __name__ == '__main__':
+    sectional_measurement()
 
 
 def _calcu_y_value_range():
