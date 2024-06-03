@@ -91,6 +91,32 @@ def _draw_sin2():
 
 # _draw_sin2()
 
+def f2(x):
+    return 4 / (1 + pow(x, 2))
+
+
+def _calcu_integral():
+    left_riemann = 0.0
+    right_riemann = 0.0
+    midpoint_riemann = 0.0
+    a = 0.0
+    b = 1.0
+    h = b - a
+    for n in range(1, 100):
+        for i in range(1, n):
+            left_riemann += f2(a + h * (i - 1))
+            right_riemann += f2(a + h * i)
+            midpoint_riemann += f2(a + h * (i - 0.5))
+        left_riemann *= h
+        right_riemann *= h
+        midpoint_riemann *= h
+        print(f"left_riemann = {left_riemann}, right_riemann = {right_riemann},midpoint_riemann = {midpoint_riemann}")
+        h /= 2.0
+
+
+_calcu_integral()
+
+
 def sectional_measurement():
     w = 1  # 長方形の幅
     x = np.arange(0, np.pi, w)  # x
@@ -100,8 +126,8 @@ def sectional_measurement():
     print(val)
 
 
-if __name__ == '__main__':
-    sectional_measurement()
+# if __name__ == '__main__':
+#     sectional_measurement()
 
 
 def _calcu_y_value_range():

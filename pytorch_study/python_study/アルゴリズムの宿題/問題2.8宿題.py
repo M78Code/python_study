@@ -72,3 +72,6 @@ list2d = [[1, 3], [7, 5, 6]]
 for i in range(len(list2d)):
     for j in range(len(list2d[i])):
         print(list2d[i][j])
+
+x = pow(82 / 6, 4.5)
+print(x)
