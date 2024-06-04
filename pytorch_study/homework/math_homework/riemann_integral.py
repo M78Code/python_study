@@ -1,11 +1,55 @@
 import numpy as np
+from matplotlib.patches import Polygon
 from matplotlib.pyplot import MultipleLocator
 from pylab import mpl
 import matplotlib.pyplot as pt
+import matplotlib
+from scipy.integrate import quad
 
 
-# def f(x):
-#     return 4 / (1 + pow(x, 2))
+# y関数の定義
+def func(x):
+    return x * np.sin(2 * x)
+
+
+# xの値の範囲、60部分を分割する
+x = np.linspace(-np.pi, np.pi, 60)
+# y関数
+y = func(x)
+
+
+def integral_func(x):
+    result, _ = quad(func, 0, x)
+    return result
+
+
+# 積分を計算する
+integral_y = np.vectorize(integral_func)(x)
+
+
+# 図を描く
+def _draw_figure():
+    pt.figure(figsize=(12, 10))
+
+    # グラフを描く
+    pt.plot(x, y, label="f(x)関数の図")
+
+    # 軸のラベルとタイトルの設定
+    # mpl.rcParams["font.family"] = ["SimHei"]  # linux下設定的字体
+    mpl.rcParams["font.family"] = ["Arial Unicode MS"]  # linux下设置的字体
+    mpl.rcParams["axes.unicode_minus"] = False  # "UTF-8"
+    pt.xlabel("x")
+    pt.ylabel("f(x)")
+
+    x_major_locator = MultipleLocator(1)
+    ax = pt.gca()
+    ax.xaxis.set_major_locator(x_major_locator)
+
+    # 図例を示す
+    pt.legend()
+
+    # グラフを示す
+    pt.show()
 
 
 def f(x):
@@ -74,8 +118,9 @@ def _calcu2_pi_value():
         h /= 2.0
         n *= 2
 
+# _calcu2_pi_value()
 
-_calcu2_pi_value()
+
 # result = format(1.23456, '0.3f')
 #
 # print(result)

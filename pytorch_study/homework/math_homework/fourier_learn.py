@@ -173,3 +173,5 @@ def _calcu_y_value_range():
 
 fa = -np.pi * np.sin(-np.pi)
 print(f"fa = {fa}")
+
+print(np.sctypeDict)
