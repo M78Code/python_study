@@ -1,7 +1,9 @@
 import numpy as np
+
 from matplotlib.pyplot import MultipleLocator
 from pylab import mpl
 import matplotlib.pyplot as pt
+
 
 
 # フーリエ級数

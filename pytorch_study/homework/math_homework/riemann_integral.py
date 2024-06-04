@@ -1,10 +1,20 @@
+import numpy as np
+from matplotlib.pyplot import MultipleLocator
+from pylab import mpl
+import matplotlib.pyplot as pt
+
+
+# def f(x):
+#     return 4 / (1 + pow(x, 2))
+
+
 def f(x):
-    return 4 / (1 + pow(x, 2))
+    return x * np.sin(x)
 
 
 def _calcu_pi_value():
-    left_riemann = 0.0
-    right_riemann = 0.0
+    left_riemann = -np.pi
+    right_riemann = np.pi
     midpoint = 0.0
     a = 0.0
     b = 1.0
