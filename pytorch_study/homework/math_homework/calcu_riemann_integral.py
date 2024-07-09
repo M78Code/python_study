@@ -19,7 +19,7 @@ y = func(x)
 
 
 def integral_func(x):
-    result, _ = quad(func, 0, x)
+    result, _ = quad(func, -np.pi, np.pi)
     return result
 
 
@@ -33,16 +33,34 @@ def _draw_figure():
 
     # グラフを描く
     pt.plot(x, y, label="f(x)関数の図")
+    pt.plot(x, integral_y, label='積分の図', color='red')
+    # 填充积分区域
+    pt.fill_between(x, y, where=(y < 0), interpolate=True, alpha=0.2, color='gray')
+    pt.fill_between(x, y, where=(y > 0), interpolate=True, alpha=0.2, color='green')
+
+    # print(f"{format(, '0.15f')})
+    # print("integral_y", integral_y)
 
     # 軸のラベルとタイトルの設定
     # mpl.rcParams["font.family"] = ["SimHei"]  # linux下設定的字体
     mpl.rcParams["font.family"] = ["Arial Unicode MS"]  # linux下设置的字体
     mpl.rcParams["axes.unicode_minus"] = False  # "UTF-8"
-    pt.xlabel("x")
+    # pt.xlabel("x")
     pt.ylabel("f(x)")
 
     x_major_locator = MultipleLocator(1)
     ax = pt.gca()
+    # 図名
+    ax.set_title('y = x * sin(2x)')
+
+    # 右の枠線を表示しない
+    ax.spines['right'].set_visible(False)
+    # 上の枠線を表示しない
+    ax.spines['top'].set_visible(False)
+    # デフォルト軸位置の変更
+    ax.spines['bottom'].set_position('zero')
+    ax.spines['left'].set_position('zero')
+
     ax.xaxis.set_major_locator(x_major_locator)
 
     # 図例を示す
@@ -50,6 +68,9 @@ def _draw_figure():
 
     # グラフを示す
     pt.show()
+
+
+_draw_figure()
 
 
 def f(x):
@@ -119,16 +140,3 @@ def _calcu2_pi_value():
         n *= 2
 
 # _calcu2_pi_value()
-
-
-# result = format(1.23456, '0.3f')
-#
-# print(result)
-#
-# result = format(1.23456, '0.2f')
-# print(result)
-# result = format(1.23456, '0.4f')
-# print(result)
-# w = 1
-# for k in range(0, w):
-#     print(w)

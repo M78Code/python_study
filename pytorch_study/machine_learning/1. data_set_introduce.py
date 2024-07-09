@@ -33,7 +33,8 @@ iris_data['target'] = iris.target
 x_train, x_test, y_train, y_test = train_test_split(iris_data, iris.target, test_size=0.2, random_state=2)
 # print("训练集的特征征值是：\n", x_train)
 # print("测试集的特征征值是：\n", x_test)
-# print("训练集的目标值是：\n", y_train)
+# print("训练集的
+# 目标值是：\n", y_train)
 print("测试集的目标值是：\n", y_test)
 
 x_train1, x_test1, y_train1, y_test1 = train_test_split(iris_data, iris.target, test_size=0.2, random_state=22)
@@ -53,4 +54,4 @@ def iris_plot(data, col1, col2):
     plt.ylabel(col2)
     plt.show()
 
-# iris_plot(iris_data, "Sepal_Length", "Petal_Width")
+iris_plot(iris_data, "Sepal_Length", "Petal_Width")

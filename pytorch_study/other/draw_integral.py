@@ -31,7 +31,7 @@ def _draw1():
     plt.plot(x, y, label='Original Function: $x^2$')
     plt.plot(x, integral_y, label='Integral Function')
     # 填充积分区域
-    plt.fill_between(x, 0, integral_y, alpha=0.2, color='gray')
+    plt.fill_between(x, 0, integral_y, alpha=0.6, color='gray')
     plt.xlabel('x')
     plt.ylabel('y')
     plt.title('Integral of $x^2$')
@@ -40,7 +40,8 @@ def _draw1():
     plt.show()
 
 
-# _draw1()
+_draw1()
+
 
 def _integrand(x):
     return pow(x, 2)
@@ -83,6 +84,9 @@ def d1():
     plt.show()
 
 
+# d1()
+
+
 def f(x):
     return np.sin(x) + 0.5 * x
 
@@ -115,6 +119,5 @@ def _d2():
     plt.title('积分图')
     plt.show()
 
-# _d2()
 
-
+_d2()
