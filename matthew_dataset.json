@@ -1,0 +1,194 @@
+[
+  {
+    "input": "1 Now when Eshu {Yeshua} saw the multitudes, He ascended a tura {a mountain}, and when He sat down, His Disciples drew near to Him.",
+    "output": "ܟܕ ܚܙܐ ܕܝܢ ܝܫܘܥ ܠܟܢܫܐ ܣܠܩ ܠܛܘܪܐ ܘܟܕ ܝܬܒ ܩܪܒܘ ܠܘܬܗ ܬܠܡܝܕܘܗܝ"
+  },
+  {
+    "input": "2 And He opened phumeh {His mouth} and was teaching them, and was saying,",
+    "output": "ܘܦܬܚ ܦܘܡܗ ܘܡܠܦ ܗܘܐ ܠܗܘܢ ܘܐܡܪ"
+  },
+  {
+    "input": "3 “Happiness for the poor in spirit, because theirs is the Malkutha d’Shmaya {The Kingdom of the Heavens}!",
+    "output": "ܛܘܒܝܗܘܢ ܠܡܣܟܢܐ ܒܪܘܚ ܕܕܝܠܗܘܢ ܗܝ ܡܠܟܘܬܐ ܕܫܡܝܐ"
+  },
+  {
+    "input": "4 Happiness for the abiyle {the mourners}, because they will be comforted!",
+    "output": "ܛܘܒܝܗܘܢ ܠܐܒܝܠܐ ܕܗܢܘܢ ܢܬܒܝܐܘܢ"
+  },
+  {
+    "input": "5 Happiness for the makiyke {the humble}, because they will inherit the Ara {the Earth}!",
+    "output": "ܛܘܒܝܗܘܢ ܠܡܟܝܟܐ ܕܗܢܘܢ ܢܐܪܬܘܢ ܐܪܥܐ"
+  },
+  {
+    "input": "6 Happiness for those who kaphniyn {hunger} and sheyn {thirst} for kenutha {righteousness/justice}, because they will be satisfied!",
+    "output": "ܛܘܒܝܗܘܢ ܠܐܝܠܝܢ ܕܟܦܢܝܢ ܘܨܗܝܢ ܠܟܐܢܘܬܐ ܕܗܢܘܢ ܢܣܒܥܘܢ"
+  },
+  {
+    "input": "7 Happiness for the amrakhmane {the merciful}, because mercies will be upon them!",
+    "output": "ܛܘܒܝܗܘܢ ܠܡܪܚܡܢܐ ܕܥܠܝܗܘܢ ܢܗܘܘܢ ܪܚܡܐ"
+  },
+  {
+    "input": "8 Happiness for those who are dakeyn b'lebhun {pure in their heart}, because they will see Alaha {God}.",
+    "output": "ܛܘܒܝܗܘܢ ܠܐܝܠܝܢ ܕܕܟܝܢ ܒܠܒܗܘܢ ܕܗܢܘܢ ܢܚܙܘܢ ܠܐܠܗܐ"
+  },
+  {
+    "input": "9 Happiness for those who make shlama {peace}, because they will be called the sons of Alaha {God}.",
+    "output": "ܛܘܒܝܗܘܢ ܠܥܒܕܝ ܫܠܡܐ ܕܒܢܘܗܝ ܕܐܠܗܐ ܢܬܩܪܘܢ"
+  },
+  {
+    "input": "10 Happiness for those who are persecuted because of kenutha {righteousness/justice}, because theirs is the Malkutha d’Shmaya {The Kingdom of the Heavens}.",
+    "output": "ܛܘܒܝܗܘܢ ܠܐܝܠܝܢ ܕܐܬܪܕܦܘ ܡܛܠ ܟܐܢܘܬܐ ܕܕܝܠܗܘܢ ܗܝ ܡܠܟܘܬܐ ܕܫܡܝܐ"
+  },
+  {
+    "input": "11 Happy are you, when they reproach you, and they persecute you, and they speak every evil word about you, falsely, because of Me.",
+    "output": "ܛܘܒܝܟܘܢ ܐܡܬܝ ܕܡܚܣܕܝܢ ܠܟܘܢ ܘܪܕܦܝܢ ܠܟܘܢ ܘܐܡܪܝܢ ܥܠܝܟܘܢ ܟܠ ܡܠܐ ܒܝܫܐ ܡܛܠܬܝ ܒܕܓܠܘܬܐ"
+  },
+  {
+    "input": "12 Then, be rejoicing and be joyful, because your reward is great in the Shmaya {the Heavens}, for, they likewise persecuted The Nabiye {The Prophets} who were from before you.",
+    "output": "ܗܝܕܝܢ ܚܕܘ ܘܪܘܙܘ ܕܐܓܪܟܘܢ ܣܓܝ ܒܫܡܝܐ ܗܟܢܐ ܓܝܪ ܪܕܦܘ ܠܢܒܝܐ ܕܡܢ ܩܕܡܝܟܘܢ"
+  },
+  {
+    "input": "13 You are The Melkhe d’Ara {The Salt of the Earth}, but, if the Melkha {the Salt} should become tasteless, with what would it be seasoned? But rather, the thing not fit, is carried off, which is to be thrown outside, and will be trampled by mankind.",
+    "output": "ܐܢܬܘܢ ܐܢܘܢ ܡܠܚܗ ܕܐܪܥܐ ܐܢ ܗܘ ܕܝܢ ܕܡܠܚܐ ܬܦܟܗ ܒܡܢܐ ܬܬܡܠܚ ܠܡܕܡ ܠܐ ܐܙܠܐ ܐܠܐ ܕܬܫܬܕܐ ܠܒܪ ܘܬܬܕܝܫ ܡܢ ܐܢܫܐ"
+  },
+  {
+    "input": "14 You are The Nuhreh d'alma {The Light of the world}, it isn’t possible that a madintha {a city} which is built upon a tura {a mountain} could be hidden.",
+    "output": "ܐܢܬܘܢ ܐܢܘܢ ܢܘܗܪܗ ܕܥܠܡܐ ܠܐ ܡܫܟܚܐ ܕܬܛܫܐ ܡܕܝܢܬܐ ܕܥܠ ܛܘܪܐ ܒܢܝܐ"
+  },
+  {
+    "input": "15 They don’t light a shraga {a lamp} and place it under a satha {a bushel}, but rather, upon a manartha {a lamp-stand}, and it manhar {shines} for all those who are in the house.",
+    "output": "ܘܠܐ ܡܢܗܪܝܢ ܫܪܓܐ ܘܣܝܡܝܢ ܠܗ ܬܚܝܬ ܣܐܬܐ ܐܠܐ ܥܠ ܡܢܪܬܐ ܘܡܢܗܪ ܠܟܠ ܐܝܠܝܢ ܕܒܒܝܬܐ ܐܢܘܢ"
+  },
+  {
+    "input": "16 Likewise nuhrakun {your light} should shine before mankind, so that they might see your good deeds and they might glorify Your Father who is in the Shmaya {the Heavens}.",
+    "output": "ܗܟܢܐ ܢܢܗܪ ܢܘܗܪܟܘܢ ܩܕܡ ܒܢܝܢܫܐ ܕܢܚܙܘܢ ܥܒܕܝܟܘܢ ܛܒܐ ܘܢܫܒܚܘܢ ܠܐܒܘܟܘܢ ܕܒܫܡܝܐ"
+  },
+  {
+    "input": "17 Don’t think that I have come to loosen The Namusa {The Law}, or The Nabiye {The Prophets}, I haven’t come to loosen, but rather to fulfill.",
+    "output": "ܠܐ ܬܣܒܪܘܢ ܕܐܬܝܬ ܕܐܫܪܐ ܢܡܘܣܐ ܐܘ ܢܒܝܐ ܠܐ ܐܬܝܬ ܕܐܫܪܐ ܐܠܐ ܕܐܡܠܐ"
+  },
+  {
+    "input": "18 For, amiyn {truly} I say unto you, that until the Shmaya {the Heavens} and the Ara {the Earth} passes away, one yud {i.e. the smallest Aramaic letter}, or one serta {i.e. a small stroke, or line dash in Aramaic} will not pass away from The Namusa {The Law}, until all comes to pass {i.e. is fulfilled}.",
+    "output": "ܐܡܝܢ ܓܝܪ ܐܡܪ ܐܢܐ ܠܟܘܢ ܕܥܕܡܐ ܕܢܥܒܪܘܢ ܫܡܝܐ ܘܐܪܥܐ ܝܘܕ ܚܕܐ ܐܘ ܚܕ ܣܪܛܐ ܠܐ ܢܥܒܪ ܡܢ ܢܡܘܣܐ ܥܕܡܐ ܕܟܠ ܢܗܘܐ"
+  },
+  {
+    "input": "19 All who therefore might loosen from one of these smallest Commandments, and should teach thus unto the sons of mankind, will be called the zure {the little ones} in The Malkutha d'Shmaya {The Kingdom of the Heavens}, but, all who might do, and should teach this, will be called a Raba {a Great one} in The Malkutha d'Shmaya {The Kingdom of the Heavens}.",
+    "output": "ܟܠ ܡܢ ܕܢܫܪܐ ܗܟܝܠ ܚܕ ܡܢ ܦܘܩܕܢܐ ܗܠܝܢ ܙܥܘܪܐ ܘܢܠܦ ܗܟܢܐ ܠܒܢܝܢܫܐ ܒܨܝܪܐ ܢܬܩܪܐ ܒܡܠܟܘܬܐ ܕܫܡܝܐ ܟܠ ܕܝܢ ܕܢܥܒܕ ܘܢܠܦ ܗܢܐ ܪܒܐ ܢܬܩܪܐ ܒܡܠܟܘܬܐ ܕܫܡܝܐ"
+  },
+  {
+    "input": "20 For, I say unto you, that unless kenuthkun {your righteousness/justice} exceeds more than that of the Saphre {the Scribes} and the Phrishe {the Pharisees}, you will not enter unto The Malkutha d'Shmaya {The Kingdom of the Heavens}!",
+    "output": "ܐܡܪ ܐܢܐ ܠܟܘܢ ܓܝܪ ܕܐܢ ܠܐ ܬܐܬܪ ܟܐܢܘܬܟܘܢ ܝܬܝܪ ܡܢ ܕܣܦܪܐ ܘܦܪܝܫܐ ܠܐ ܬܥܠܘܢ ܠܡܠܟܘܬܐ ܕܫܡܝܐ"
+  },
+  {
+    "input": "21 You have heard that it was said unto those before, ‘you shall not kill;’ and all who might kill, is condemned to the judgment.",
+    "output": "ܫܡܥܬܘܢ ܕܐܬܐܡܪ ܠܩܕܡܝܐ ܠܐ ܬܩܛܘܠ ܘܟܠ ܕܢܩܛܘܠ ܡܚܝܒ ܗܘ ܠܕܝܢܐ"
+  },
+  {
+    "input": "22 But I, I say unto you, that everyone who is enraged against his brother, for no reason, is condemned to the judgment, and everyone who might say unto his brother, ‘Raqa’ {I spit on you}, is liable to The Kenushtha {The Synagogue/The Assembly}, and all who might say, ‘Lela’ {You idiot}, is condemned to The Gihana d'Nuhra {The Gehenna of Fire}.",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܕܟܠ ܡܢ ܕܢܪܓܙ ܥܠ ܐܚܘܗܝ ܐܝܩܐ ܡܚܝܒ ܗܘ ܠܕܝܢܐ ܘܟܠ ܕܢܐܡܪ ܠܐܚܘܗܝ ܪܩܐ ܡܚܝܒ ܗܘ ܠܟܢܘܫܬܐ ܘܟܠ ܡܢ ܕܢܐܡܪ ܠܠܐ ܡܚܝܒ ܗܘ ܠܓܗܢܐ ܕܢܘܪܐ"
+  },
+  {
+    "input": "23 If it is therefore, that you offer qurbanak {your sacrifice} on the Madbakha {the Altar}, and there you might remember that your brother holds some aktha {grudge} against you,",
+    "output": "ܐܢ ܗܘ ܗܟܝܠ ܕܡܩܪܒ ܐܢܬ ܩܘܪܒܢܟ ܥܠ ܡܕܒܚܐ ܘܬܡܢ ܬܬܕܟܪ ܕܐܚܝܕ ܥܠܝܟ ܐܚܘܟ ܐܟܬܐ ܡܕܡ"
+  },
+  {
+    "input": "24 leave qurbanak {your sacrifice} there next to the Madbakha {the Altar}, and first go reconcile with your brother, and then come offer qurbanak {your sacrifice}.",
+    "output": "ܫܒܘܩ ܬܡܢ ܩܘܪܒܢܟ ܥܠ ܡܕܒܚܐ ܘܙܠ ܠܘܩܕܡ ܐܬܪܥܐ ܥܡ ܐܚܘܟ ܘܗܝܕܝܢ ܬܐ ܩܪܒ ܩܘܪܒܢܟ"
+  },
+  {
+    "input": "25 Be in agreement {i.e. settle} with bel diynak {your law master, i.e. your prosecuting attorney} quickly while you are with him in the way, lest bel diynak {your law master, i.e. your prosecuting attorney} hands you over to the Judge, and the Judge hands you over to the Tribute Collector, and you be cast into the prisoners house.",
+    "output": "ܗܘܝܬ ܡܬܐܘܐ ܥܡ ܒܥܠ ܕܝܢܟ ܥܓܠ ܥܕ ܥܡܗ ܐܢܬ ܒܐܘܪܚܐ ܕܠܡܐ ܒܥܠ ܕܝܢܟ ܢܫܠܡܟ ܠܕܝܢܐ ܘܕܝܢܐ ܢܫܠܡܟ ܠܓܒܝܐ ܘܬܦܠ ܒܝܬ ܐܣܝܪܐ"
+  },
+  {
+    "input": "26 And amiyn {truly}, I say unto you, that you will not go out from there until you should give the last shamuna {a small valued coin}.",
+    "output": "ܘܐܡܝܢ ܐܡܪ ܐܢܐ ܠܟ ܕܠܐ ܬܦܘܩ ܡܢ ܬܡܢ ܥܕܡܐ ܕܬܬܠ ܫܡܘܢܐ ܐܚܪܝܐ"
+  },
+  {
+    "input": "27 You have heard that it has been said that ‘You shall not commit adultery’.",
+    "output": "ܫܡܥܬܘܢ ܕܐܬܐܡܪ ܕܠܐ ܬܓܘܪ"
+  },
+  {
+    "input": "28 But I, I say unto you, that whoever that looks at an anttha {a woman} in order to appease his lust, immediately has committed adultery in his heart.",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܕܟܠ ܡܢ ܕܚܙܐ ܐܢܬܬܐ ܐܝܟ ܕܢܪܓܝܗ ܡܚܕܐ ܓܪܗ ܒܠܒܗ"
+  },
+  {
+    "input": "29 But, if your right eye causes you to makshla {stumble/offend i.e. to sin}, pluck it out and throw it from you, for, it is better for you that one of your members should perish, and not all your body be thrown into Gihana {Gehenna}.",
+    "output": "ܐܢ ܕܝܢ ܥܝܢܟ ܕܝܡܝܢܐ ܡܟܫܠܐ ܠܟ ܚܨܝܗ ܘܫܕܝܗ ܡܢܟ ܦܩܚ ܠܟ ܓܝܪ ܕܢܐܒܕ ܚܕ ܗܕܡܟ ܘܠܐ ܟܠܗ ܦܓܪܟ ܢܦܠ ܒܓܗܢܐ"
+  },
+  {
+    "input": "30 And if your right hand causes you to makshla {to stumble/offend i.e. to sin}, cut it off and throw it from you, for, it is better for you that one from your members should perish and not all your body be thrown into Gihana {Gehenna}.",
+    "output": "ܘܐܢ ܐܝܕܟ ܕܝܡܝܢܐ ܡܟܫܠܐ ܠܟ ܦܣܘܩ ܫܕܝܗ ܡܢܟ ܦܩܚ ܠܟ ܓܝܪ ܕܢܐܒܕ ܚܕ ܡܢ ܗܕܡܝܟ ܘܠܐ ܟܠܗ ܦܓܪܟ ܢܦܠ ܒܓܗܢܐ"
+  },
+  {
+    "input": "31 It has been said that he who loosens anttheh {his wife} {i.e. releases her from her vow} shall give unto her a writing of divorcement.",
+    "output": "ܐܬܐܡܪ ܕܡܢ ܕܫܪܐ ܐܢܬܬܗ ܢܬܠ ܠܗ ܟܬܒܐ ܕܕܘܠܠܐ"
+  },
+  {
+    "input": "32 But I, I say unto you, that all who loosens anttheh {his wife}, aside from a case of fornication, makes her commit adultery, and he who takes {i.e. marries} a divorcee, commits adultery.",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܕܟܠ ܡܢ ܕܫܪܐ ܐܢܬܬܗ ܠܒܪ ܡܢ ܡܠܬܐ ܕܙܢܝܘܬܐ ܥܒܕ ܠܗ ܕܬܓܘܪ ܘܡܢ ܕܫܩܠ ܫܒܝܩܬܐ ܓܐܪ"
+  },
+  {
+    "input": "33 Again you have heard that it has been said unto the former ones, that ‘You shall not lie in your oaths, but rather, complete your oaths unto MarYa {The Lord-YHWH}.",
+    "output": "ܬܘܒ ܫܡܥܬܘܢ ܕܐܬܐܡܪ ܠܩܕܡܝܐ ܕܠܐ ܬܕܓܠ ܒܡܘܡܬܟ ܬܫܠܡ ܕܝܢ ܠܡܪܝܐ ܡܘܡܬܟ"
+  },
+  {
+    "input": "34 But I, I say unto you, you shouldn’t say ‘I swear’ at all. Not by the Shmaya {the Heavens}, because that is The Throne of Alaha {God},",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܠܐ ܬܐܡܘܢ ܣܟ ܠܐ ܒܫܡܝܐ ܕܟܘܪܣܝܐ ܗܘ ܕܐܠܗܐ"
+  },
+  {
+    "input": "35 and not by the Ara {the Earth}, because it is the footstool which is under His feet. Not even by Urishlim {Jerusalem}, because it is The City of The Great King.",
+    "output": "ܘܠܐ ܒܐܪܥܐ ܕܟܘܒܫܐ ܗܝ ܕܬܚܝܬ ܪܓܠܘܗܝ ܐܦ ܠܐ ܒܐܘܪܫܠܡ ܕܡܕܝܢܬܗ ܗܝ ܕܡܠܟܐ ܪܒܐ"
+  },
+  {
+    "input": "36 Not even theme {swear} by your head, because you are not able to make in it one portion of the hair black or white.",
+    "output": "ܐܦ ܠܐ ܒܪܫܟ ܬܐܡܐ ܕܠܐ ܡܫܟܚ ܐܢܬ ܠܡܥܒܕ ܒܗ ܡܢܬܐ ܚܕܐ ܕܣܥܪܐ ܐܘ ܟܡܬܐ ܐܘ ܚܘܪܬܐ"
+  },
+  {
+    "input": "37 But rather, your word should be ‘Iyn {Yes}’, ‘Iyn {Yes},’ and ‘La {No},’ ‘La {No}.’ Something which is more than these is from evil.",
+    "output": "ܐܠܐ ܬܗܘܐ ܡܠܬܟܘܢ ܐܝܢ ܐܝܢ ܘܠܐ ܠܐ ܡܕܡ ܕܡܢ ܗܠܝܢ ܝܬܝܪ ܡܢ ܒܝܫܐ ܗܘ"
+  },
+  {
+    "input": "38 You have heard that it has been said that ‘An eye for an eye, and a tooth for a tooth.’",
+    "output": "ܫܡܥܬܘܢ ܕܐܬܐܡܪ ܕܥܝܢܐ ܚܠܦ ܥܝܢܐ ܘܫܢܐ ܚܠܦ ܫܢܐ"
+  },
+  {
+    "input": "39 But I, I say unto you, that you shall not stand against evil, but rather, the one who hits you upon your right phakak {cheek}, turn also to him the other.",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܕܠܐ ܬܩܘܡܘܢ ܠܘܩܒܠ ܒܝܫܐ ܐܠܐ ܡܢ ܕܡܚܐ ܠܟ ܥܠ ܦܟܟ ܕܝܡܝܢܐ ܐܦܢܐ ܠܗ ܐܦ ܐܚܪܢܐ"
+  },
+  {
+    "input": "40 And the one who desires to go to court with you and take kuthiynak {your tunic i.e. your shirt}, leave him martutak {your cloak i.e. your coat also.",
+    "output": "ܘܡܢ ܕܨܒܐ ܕܢܕܘܢ ܥܡܟ ܘܢܫܩܘܠ ܟܘܬܝܢܟ ܫܒܘܩ ܠܗ ܐܦ ܡܪܛܘܛܟ"
+  },
+  {
+    "input": "41 The one who compels you one miyla {mile}, go with him two.",
+    "output": "ܡܢ ܕܡܫܚܪ ܠܟ ܡܝܠܐ ܚܕ ܙܠ ܥܡܗ ܬܪܝܢ"
+  },
+  {
+    "input": "42 The one who asks you to give unto him, and the one who desires to borrow from you, you shall not refuse him.",
+    "output": "ܡܢ ܕܫܐܠ ܠܟ ܗܒ ܠܗ ܘܡܢ ܕܨܒܐ ܕܢܐܙܦ ܡܢܟ ܠܐ ܬܟܠܝܘܗܝ"
+  },
+  {
+    "input": "43 You have heard that it has been said, that ‘you are to love your neighbor, and hate your enemy.’",
+    "output": "ܫܡܥܬܘܢ ܕܐܬܐܡܪ ܕܪܚܡ ܠܩܪܝܒܟ ܘܣܢܝ ܠܒܥܠܕܒܒܟ"
+  },
+  {
+    "input": "44 But I, I say unto you, you are to love your enemies, and bless the ones who curse you, and do that which is good unto the ones who hate you. And pray over the ones who take you by force and persecutes you,",
+    "output": "ܐܢܐ ܕܝܢ ܐܡܪ ܐܢܐ ܠܟܘܢ ܐܚܒܘ ܠܒܥܠܕܒܒܝܟܘܢ ܘܒܪܟܘ ܠܡܢ ܕܠܐܛ ܠܟܘܢ ܘܥܒܕܘ ܕܫܦܝܪ ܠܡܢ ܕܣܢܐ ܠܟܘܢ ܘܨܠܘ ܥܠ ܐܝܠܝܢ ܕܕܒܪܝܢ ܠܟܘܢ ܒܩܛܝܪܐ ܘܪܕܦܝܢ ܠܟܘܢ"
+  },
+  {
+    "input": "45 in such a way that you may be the sons of Abukhun {Your Father} who is in the Shmaya {the Heavens}, He who shines His sun upon the good, and upon the evil, and brings down His rain upon the just, and upon the unjust.",
+    "output": "ܐܝܟܢܐ ܕܬܗܘܘܢ ܒܢܘܗܝ ܕܐܒܘܟܘܢ ܕܒܫܡܝܐ ܗܘ ܕܡܕܢܚ ܫܡܫܗ ܥܠ ܛܒܐ ܘܥܠ ܒܝܫܐ ܘܡܚܬ ܡܛܪܗ ܥܠ ܟܐܢܐ ܘܥܠ ܥܘܠܐ"
+  },
+  {
+    "input": "46 For, if you love the ones who love you, what reward is there for you? Look! Isn’t even the Makse {the Tax Collectors} doing this?",
+    "output": "ܐܢ ܓܝܪ ܡܚܒܝܢ ܐܢܬܘܢ ܠܐܝܠܝܢ ܕܡܚܒܝܢ ܠܟܘܢ ܡܢܐ ܐܓܪܐ ܐܝܬ ܠܟܘܢ ܠܐ ܗܐ ܐܦ ܡܟܣܐ ܗܝ ܗܕܐ ܥܒܕܝܢ"
+  },
+  {
+    "input": "47 And if you greet in shlama {peace} only those of your of your brothers, what more are you doing? Look! Isn’t even the Makse {the Tax Collectors} doing this?",
+    "output": "ܘܐܢ ܫܐܠܝܢ ܐܢܬܘܢ ܒܫܠܡܐ ܕܐܚܝܟܘܢ ܒܠܚܘܕ ܡܢܐ ܝܬܝܪ ܥܒܕܝܢ ܐܢܬܘܢ ܠܐ ܗܐ ܐܦ ܡܟܣܐ ܗܝ ܗܕܐ ܥܒܕܝܢ"
+  },
+  {
+    "input": "48 You therefore are to be gamiyre {perfect ones}, in such a way that Your Father, who is in the Shmaya {the Heavens}, is perfect.",
+    "output": "ܗܘܘ ܗܟܝܠ ܐܢܬܘܢ ܓܡܝܪܐ ܐܝܟܢܐ ܕܐܒܘܟܘܢ ܕܒܫܡܝܐ ܓܡܝܪ ܗܘ"
+  }
+]
